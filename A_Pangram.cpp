@@ -8,7 +8,7 @@ int main()
     string s;
     cin >> s;
     int char_cnt[26] = {0};
-    
+
     for (int i = 0; i < n; i++)
     {
         if (65 <= s[i] && s[i] <= 90) // uppercase
