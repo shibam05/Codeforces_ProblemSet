@@ -15,6 +15,6 @@ int main()
         res += abs(mid - a) + abs(mid - b) + abs(mid - c);
         cout << res << endl;
     }
-    
+
     return 0;
 }
