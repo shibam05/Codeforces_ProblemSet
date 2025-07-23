@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-#include <cmath>
 using namespace std;
 
 int main()
@@ -24,7 +23,7 @@ int main()
             cows = n / 4;
             chickens = (n % 4) / 2;
         }
-        
+
         int res = cows + chickens;
         cout << res << endl;
     }
