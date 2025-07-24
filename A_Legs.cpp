@@ -5,7 +5,6 @@ int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-
     int t;
     cin >> t;
     while (t--)
@@ -23,7 +22,6 @@ int main()
             cows = n / 4;
             chickens = (n % 4) / 2;
         }
-
         int res = cows + chickens;
         cout << res << endl;
     }
