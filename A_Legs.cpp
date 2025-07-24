@@ -1,6 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+int alternate_soln(int n)
+{
+    return (int)(n + 2) / 4;
+}
+
 int main()
 {
     ios::sync_with_stdio(false);
@@ -24,6 +29,7 @@ int main()
         }
         int res = cows + chickens;
         cout << res << endl;
+        // cout << alternate_soln(n) << endl;
     }
 
     return 0;
