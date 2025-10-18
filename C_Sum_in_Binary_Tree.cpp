@@ -16,7 +16,7 @@ int main()
         while (n > 0)
         {
             res += n;
-            n /= 2;
+            n = n >> 1;
         }
         cout << res << endl;
     }
