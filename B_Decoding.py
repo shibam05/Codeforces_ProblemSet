@@ -1,3 +1,4 @@
+# ATTEMPTED
 n = int(input())
 s = str(input())
 res = [""] * n

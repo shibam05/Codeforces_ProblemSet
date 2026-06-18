@@ -1,3 +1,4 @@
+# ATTEMPTED
 from math import ceil, floor
 
 t = int(input())

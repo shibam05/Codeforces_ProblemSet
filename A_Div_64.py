@@ -1,3 +1,4 @@
+# ATTEMPTED
 s = input().strip()
 n = len(s)
 zero_cnt = 0
